@@ -29,7 +29,7 @@
 {
     self.view.backgroundColor = [UIColor orangeColor];
     [NSTimer scheduledTimerWithTimeInterval:timeDuration target:self selector:@selector(funcc) userInfo:nil repeats:YES];
-    _dynamicView = [TYRecorderAnimationView recorderWithFrameX:7 frameY:5 height:600 themeColor:[UIColor whiteColor] frequency:timeDuration];
+    _dynamicView = [TYRecorderAnimationView recorderWithFrameX:7 frameY:50 height:400 themeColor:[UIColor whiteColor] frequency:timeDuration];
     [self.view addSubview:_dynamicView];
 }
 -(void)funcc
